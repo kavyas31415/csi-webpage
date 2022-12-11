@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html>
+<head><link rel="stylesheet" href="style.css"></head>
+
+
+<body>
+	<div class="header" id="myHeader">
+		
+		<img id="logo" src="KLE_logo.webp" alt="logoside">
+		<img id="nba"  src="nba.jpeg" alt="nba">
+		<img id="headlogo" src="head.png" alt="head logo">
+		<pre id="abt">About Us v               Academics v              Departments v          Placements                                                                                                                                                             Library           Facilities v            Interactions v          Bank</pre>
+		<div id="rect1"></div>
+		<div id="rect2"></div>
+		
+	</div>
+	<script>
+		window.onscroll = function() {myFunction()};
+		
+		var header = document.getElementById("myHeader");
+		var sticky = header.offsetLeft;
+		
+		function myFunction() {
+		  if (window.pageYOffset > sticky) {
+			header.classList.add("sticky");
+		  } else {
+			header.classList.remove("sticky");
+		  }
+		}
+		</script>
+
+<style>
+	
+	.sideBar {
+	height: 100%;
+	width: 150px;
+	overflow-x: hidden;
+	padding-top: 22px;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	
+	padding-top: 22px;
+	}
+	body {
+	font-family: fantasy;
+	}
+	
+	.sideBar button {
+		position: relative;
+	top: 200px;
+	
+	text-decoration: none;
+	font-size: 24px;
+	display: block; /* is not allowing to have other block of elements inside the element */
+	}
+	.sideBar button:hover {
+	color: brown;
+	}
+	#bt{
+		background-size: cover;
+		border-radius: 0%;
+		border-color: white;
+		width: 50px;
+	}
+	@media screen and (max-height: 500px) {
+	.sideBar {
+	padding-top: 90px;
+	top: 200px;
+	}
+	.sideBar button {
+	font-size: 17px;
+	
+	}
+	
+	}
+	</style>
+	
+	<div class="sideBar">
+	
+	<button id="bt">
+		<img src="contacts.png" width="100%">
+	</button>
+	<button id="bt">
+		<img src="email.png" width="100%">
+	</button>
+	<button id="bt">
+		<img src="a.png" width="100%">
+	</button>
+	<button id="bt">
+		<img src="b.png" width="100%">
+	</button>
+	
+	
+</div>
+
+	<div class="con">
+		
+		<p id="csi">CSI - COMPUTER SOCIETY OF INDIA CLUB</p>
+		<img id="cs" src="cs.png">
+		<!--<pre id="txt">Computer Society of India is the first and largest body of computer professionals in India.It was started on 6 March 1965 by a few computer professionals and has now 
+grown to be the national body representing computer professionals. It has 72 chapters across India, 511 student branches, and 100,000 members.
+
+CSI is a student council of Department of Computer Science Engineering at KLE Dr.MSSCET. Formed in the year 2012,the club has always been "For the students and By the students". 
+The Chapter has successfully organised activities like programming competitions, quiz competitions, seminars on upcoming technologies, programming language learning
+sessions and many more. It regularly organises workshops, seminars, conventions and technical talks for the benefit of professionals and users of IT in addition to conducting 
+continuing educational and professional development programs for a focused audience of budding professionals, researchers and students.</pre>-->
+
+<p id="tx">C</p>
+<pre id="txt">        omputer Society of India is the first and largest body of computer professionals in India.
+        It was started on 6 March 1965 by a few computer professionals and has now grown to 
+        be the national body representing computer professionals. It has 72 chapters across India
+511 student branches, and 100,000 members.
+	
+	
+        CSI is a student council of Department of Computer Science Engineering at KLE Dr.MSSCET.
+	Formed in the year 2012,the club has always been "For the students and By the students". 
+	The Chapter has successfully organised activities like programming competitions,
+	quiz competitions, seminars on upcoming technologies, programming language learning
+	sessions and many more. It regularly organises workshops, seminars, conventions and 
+	technical talks for the benefit of professionals and users of IT in addition to 
+	conducting  and continuing educational and professional development programs for a 
+	focused audience of budding professionals, researchers and students.</pre>
+
+<img src="1.png" id="im1">
+</div>
+
+<div id="events">
+	
+	<p id="ns">NEWS & EVENTS</p>
+	<div id="r1">
+		<img id="ev1" src="event1.jpg">
+		<button class="reg1">REGISTER</button>
+		<p id="web">WEB DESIGN-EX COMPETITION</p>
+		<pre id="li">Lorem Ipsum
+Lorem Ipsum
+Lorem Ipsum
+Lorem Ipsum
+Lorem Ipsum
+
+		</pre>
+	
+
+	</div>
+    <div id="r2"><img id="ev2" src="event2.jpg">
+		<button class="reg2">REGISTER</button>
+		<p id="wshop">WORKSHOP ON ARTIFICIAL INTELLIGENCE On 20th Jan 2023</p>
+		<pre id="li">Lorem Ipsum
+Lorem Ipsum
+Lorem Ipsum
+Lorem Ipsum
+Lorem Ipsum
+			
+					</pre>
+	</div>
+	<div id="r3"><img id="ev3" src="event 3.jpg">
+		<button class="reg3">REGISTER</button>
+		<p id="ld">PRATEEK - LOGO Design competition </p>
+		<pre id="li">Lorem Ipsum
+Lorem Ipsum
+Lorem Ipsum
+Lorem Ipsum
+Lorem Ipsum
+			
+					</pre>
+	</div>
+	
+		
+</div>
+
+<!--Faculty & Student Profiles-->
+<div id="faculty">
+	<p id="fp">FACULTY AND STUDENT COORDINATORS</p>
+	<img id="fac1" src="fac1.png"  width="200" height="200">
+	<img id="fac2" src="fac2.png"  width="200" height="200">
+	<img id="fac3" src="fac1.png"  width="200" height="200">
+	<img id="fac4" src="fac2.png"  width="200" height="200">
+	<img id="fac5" src="fac2.png"  width="200" height="200">
+	<img id="fac6" src="fac3.png"  width="200" height="200">
+	<img id="fac7" src="fac2.png"  width="200" height="200">
+	<img id="fac8" src="fac3.png"  width="200" height="200">
+	<div class="fac1d">
+		<p id="facn1">LOREM IPSUM<br/>
+			<div class="show">Designation</div></p>
+	</div>
+	<div class="fac2d">
+		<p id="facn2">LOREM IPSUM<br/>
+			<div class="show">Designation</div></p>
+	</div>
+	<div class="fac3d">
+		<p id="facn3">LOREM IPSUM<br/>
+			<div class="show">Designation</div></p>
+	</div>
+	<div class="fac4d">
+		<p id="facn4">LOREM IPSUM<br/>
+			<div class="show">Designation</div></p>
+	</div>
+	<div class="fac5d">
+		<p id="facn5">LOREM IPSUM<br/>
+			<div class="show">ABC Sem</div></p>
+	</div>
+	<div class="fac6d">
+		<p id="facn6">LOREM IPSUM<br/>
+			<div class="show">ABC Sem</div></p>
+	</div>
+	<div class="fac7d">
+		<p id="facn7">LOREM IPSUM<br/>
+			<div class="show">ABC Sem</div></p>
+	</div>
+	<div class="fac8d">
+		<p id="facn8">LOREM IPSUM<br/>
+			<div class="show">ABC Sem</div></p>
+	</div>
+</div>
+<!--Student Activities-->
+<div class="activity">
+	<p id="ac">STUDENT ACTIVITIES</p>
+	<div id="act1"></div>
+	<img id="cod" src="coding.png" height="150" width="150">
+	<p id="pc">PROGRAMMING CONTESTS<br/><br/>Lorem ipsum<br/>Lorem ipsum<br/>Lorem ipsum</p>
+	<div id="act2"></div>
+	<img id="training" src="training.png" height="150" width="150">
+	<p id="tp">TRAINING PROGRAMMES<br/><br/>Lorem ipsum<br/>Lorem ipsum<br/>Lorem ipsum</p>
+	<div id="act3"></div>
+	<img id="seminars" src="mentoring.png" height="150" width="150">
+	<p id="sem">SEMINARS<br/><br/>Lorem ipsum<br/>Lorem ipsum<br/>Lorem ipsum</p>
+	<div id="act4"></div>
+	<img id="conferences" src="conference.png" height="150" width="150">
+	<p id="conf">CONFERENCES<br/><br/>Lorem ipsum<br/>Lorem ipsum<br/>Lorem ipsum</p>
+	<div id="act5"></div>
+	<img id="quiz" src="ideas.png" height="150" width="150">
+	<p id="qui">QUIZ and many other competitions<br/><br/>Lorem ipsum<br/>Lorem ipsum<br/>Lorem ipsum</p>
+	<div id="act6"></div>
+	<img id="exhibition" src="exhibitor.png" height="150" width="150">
+	<p id="exhi">EXHIBITIONS<br/><br/>Lorem ipsum<br/>Lorem ipsum<br/>Lorem ipsum</p>
+</div>
+
+
+
+
+<div id="gallery">
+	<p id="gal">GALLERY</p>
+	<div class="slideshow-container">
+		<div class="mySlides fade">
+		  <div class="numbertext">1 / 6</div>
+		  <img src="g1.jpeg" style="width:100%">
+		  
+		</div>
+		<div class="mySlides fade">
+		  <div class="numbertext">2 / 6</div>
+		  <img src="g2.jpeg" style="width:100%">
+		 
+		</div>
+		<div class="mySlides fade">
+		  <div class="numbertext">3 / 6</div>
+		  <img src="g3.jpeg" style="width:100%">
+		  
+		</div>
+		<div class="mySlides fade">
+			<div class="numbertext">4 / 6</div>
+			<img src="g4.jpeg" style="width:100%">
+			
+		  </div>
+		  <div class="mySlides fade">
+			<div class="numbertext">5 / 6</div>
+			<img src="g5.jpeg" style="width:100%">
+			
+		  </div>
+		  <div class="mySlides fade">
+			<div class="numbertext">6 / 6</div>
+			<img src="g6.jpeg" style="width:100%">
+			
+		  </div>
+		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+		<a class="next" onclick="plusSlides(1)">&#10095;</a>
+	  </div>
+	  <br>
+	  <div style="text-align:center">
+		<span class="dot" onclick="currentSlide(0)"></span>
+		<span class="dot" onclick="currentSlide(1)"></span>
+		<span class="dot" onclick="currentSlide(2)"></span>
+		<span class="dot" onclick="currentSlide(3)"></span>
+		<span class="dot" onclick="currentSlide(4)"></span>
+		<span class="dot" onclick="currentSlide(5)"></span>
+	  </div>
+	  <script>
+		let slideIndex = 0;
+		let timeoutId = null;
+		let slides = document.getElementsByClassName("mySlides");
+		let dots = document.getElementsByClassName("dot");
+		
+		showSlides();
+		function currentSlide(index) {
+			 slideIndex = index;
+			 showSlides();
+		}
+	   function plusSlides(step) {
+		  
+		  if(step < 0) {
+			  slideIndex -= 2;
+			  
+			  if(slideIndex < 0) {
+				slideIndex = slides.length - 1;
+			  }
+		  }
+		  
+		  showSlides();
+	   }
+		function showSlides() {
+		  for(let i = 0; i < slides.length; i++) {
+			slides[i].style.display = "none";
+			dots[i].classList.remove('active');
+		  }
+		  slideIndex++;
+		  if(slideIndex > slides.length) {
+			slideIndex = 1
+		  }
+		  slides[slideIndex - 1].style.display = "block";
+		  dots[slideIndex - 1].classList.add('active');
+		   if(timeoutId) {
+			  clearTimeout(timeoutId);
+		   }
+		  timeoutId = setTimeout(showSlides, 5000); // Change image every 5 seconds
+		}
+	  </script>
+</div>
+</div>
+
+<div id="research">
+	<p id="re">RESEARCH</p>
+	<div class="flex-container">
+		<div class="container">
+			
+			<p id="res">ARTIFICIAL 
+				INTELLIGENCE</p>
+				<img id="rese" src="1.jpg">
+				<div class="overlay">
+					<img class="img" src="desc1.png">
+				  </div>
+
+				</div>
+		<div class="container">
+			<p id="res">EMBEDDED AND
+				MOBILE SYSTEMS</p>
+				<img id="rese" src="2.jpg">
+				<div class="overlay">
+					<img class="img" src="desc2.png">
+				  </div>
+		</div>
+		<div class="container">
+			<p id="res">ROBOTICS</p>
+			<img id="rese" src="3.png">
+			<div class="overlay">
+				<img class="img" src="desc3.png">
+			  </div>
+		</div> 
+		
+	  </div>
+	  <div class="fle-container">
+		<div class="container"><p id="text">NETWORKING,
+			OPERATING SYSTEMS
+			AND DISTRIBUTED SYSTEMS</p>
+			<img id="im" src="4.jpg">
+			<div class="overlay">
+				<img class="img" src="desc4.png">
+			  </div>
+		</div>
+		<div class="container"><p id="text">LANGUAGES,COMPILERS AND RUNTIME SYSTEMS
+		</p>
+			<img id="im" src="5.jpg">
+			<div class="overlay">
+				<img class="img" src="desc5.png">
+			  </div>
+			</div>
+		<div class="container"><p id="text">BIG DATA PROCESSING
+			AND BLOCKCHAIN
+			TECHNOLOGY</p>
+			<img id="im" src="6.png">
+			<div class="overlay">
+				<img class="img" src="desc6.png">
+			  </div>
+			</div> 
+
+</div>
+
+<!--Recruitment-->
+<div class="recruit">
+	<p id="rec">RECRUITMENT</p>
+	<!-- Slideshow container -->
+<div class="slideshow-contain">
+	<div class="mySlide fad">
+	  <img src="Company1.png" style="width:100%">
+	</div>
+  
+	<div class="mySlide fad">
+	  <img src="Company2.png" style="width:100%">
+	</div>
+  
+	<div class="mySlide fad">
+	  <img src="Company3.png" style="width:100%">
+	</div>
+	<div class="mySlide fad">
+		<img src="Company4.png" style="width:100%">
+	  </div>
+</div>
+<script>
+	let slideIndx = 0;
+showSlide();
+
+function showSlide() {
+  let j;
+  let slide = document.getElementsByClassName("mySlide");
+  for (j = 0; j < slide.length; j++) {
+    slide[j].style.display = "none";
+  }
+  slideIndx++;
+  if (slideIndx > slide.length) {slideIndx = 1}
+  slide[slideIndx-1].style.display = "block";
+  setTimeout(showSlide, 2000); // Change image every 2 seconds
+}
+</script>
+<!--Footer-->
+	<img id="footer" src="footer.png">
+  </body>
+  </html>
